@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Filmes]
+(
+	[Id] INT NOT NULL PRIMARY KEY, 
+    [Nome] NVARCHAR(50) NULL, 
+    [Ano] DATETIME NULL
+)
